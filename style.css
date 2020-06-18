@@ -1,0 +1,94 @@
+/* YOUR CODE HERE ======>>>>> */
+
+/* Add a black background color to the top navigation */
+* { box-sizing: border-box; }
+body{
+    background-color:#f9d2dc;
+    font-family: "Miriam Libre", sans-serif;
+    margin: 0;
+}
+#nav-bar{
+    position: fixed;
+    background-color:#1e2f4d;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+}
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    display: inline-flex;
+  }
+#container{
+    text-align: center;
+    width: 100%;
+  }
+#logo{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-size: auto 100%;
+    padding: 250px;
+    top: 15%;
+    left: 0;
+    right: 0;
+    background-image: url('https://cdn.statically.io/img/wallpapercave.com/wp/wp2858550.jpg');
+    }
+#logo-title{
+    display: block;
+    align-items: center;
+    color: #1e2f4d;
+    text-shadow: 2px 2px #ff0000;
+    background-color: rgba(235, 233, 233, 0.35) ;
+}
+#band{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h2{
+    font-family: "Miriam Libre", sans-serif;
+    color: #1e2f4d;
+}
+p{
+    color: #1e2f4d;
+    left: 25%;
+    right: 25%;
+}
+#tour{
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;  
+}
+.date{
+    margin: 5px;
+    padding: 5px;
+    color: #1e2f4d;
+    background-color:#ffffff;
+}
+input{
+margin: 5px;
+width: 10%;
+left: 0;
+right: 0;
+}
+button{
+    color: #ffffff;
+    background-color:#1e2f4d;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
